@@ -2,7 +2,6 @@ package com.devskiller.service;
 
 import com.devskiller.dao.ItemRepository;
 import com.devskiller.model.Item;
-import com.devskiller.service.impl.ItemService;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

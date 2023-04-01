@@ -1,6 +1,6 @@
 package com.devskiller.controller;
 
-import com.devskiller.service.impl.ItemService;
+import com.devskiller.service.ItemService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
