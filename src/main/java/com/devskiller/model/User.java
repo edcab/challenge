@@ -1,5 +1,7 @@
 package com.devskiller.model;
 
+import javax.persistence.Table;
+import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.Column;
@@ -9,6 +11,8 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
+@Table(name = "User")
+@Data
 public class User {
 
   @Id

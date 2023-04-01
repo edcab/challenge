@@ -1,5 +1,7 @@
 package com.devskiller.model;
 
+import javax.persistence.Table;
+import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.Entity;
@@ -8,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
+@Table(name = "Review")
+@Data
 public class Review {
 
   @Id

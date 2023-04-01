@@ -6,11 +6,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 import java.util.HashSet;
 import java.util.Set;
+import lombok.Data;
 
 @Entity
+@Table(name = "Item")
+@Data
 public class Item {
 
   @Id
